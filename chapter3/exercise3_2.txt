@@ -1,0 +1,6 @@
+Chapter 3, Exercise 2 (p. 40)
+
+These are the invalid variable names:
+char - is a reserved word
+6_05 - cannot start with a number, must be alphabetical or underscore
+A$ - "$" is an invalid character

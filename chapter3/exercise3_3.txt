@@ -1,0 +1,8 @@
+Chapter 3, Exercise 3 (p. 40)
+
+The following are invalid constants:
+0x10.5 - missing the exponent portion required for floating point hex (0x10.5p0)
+1.2Fe-7 - the 'F' denoting a float type must go at the end of the constant
+0X0G1 - valid hex characters are 0-9, A-F
+17777s - there isn't a signifier for short. "s" doesn't work here.
+15,000 - integers cannot be expressed with dividing commas
