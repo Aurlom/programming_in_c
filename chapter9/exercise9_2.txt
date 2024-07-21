@@ -1,3 +1,5 @@
+Chapter 9, Exercise 2 (p. 229)
+
 Why could the condition in Program 9.4 while loop (s1[i] == s2 [i]  &&  s1[i] != '\0' &&  s2[i] != '\0')
 be replaced with just s1[i] == s2 [i]  &&  s1[i] != '\0'?
 
