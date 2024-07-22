@@ -1,4 +1,4 @@
-// Chapter 9, Exercise 5 (p. 230)
+// Chapter 9, Exercise 6 (p. 230)
 
 // write a function to remove a substring from a string removeString (text, start, numChars)
 

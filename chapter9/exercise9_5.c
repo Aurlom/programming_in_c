@@ -1,12 +1,12 @@
 // Chapter 9, Exercise 5 (p. 230)
 
 // write a function to find a substring within a string, returning the index where the 
-// substring starts, or -1 if not found
+// substring starts, or -1 if not found findString (source, sub)
 
 #include <stdio.h>
 #include <stdbool.h>
 
-int substring (const char source[], const char sub[])
+int findString (const char source[], const char sub[])
 {
     int i, j;
     bool match = false;
@@ -36,18 +36,18 @@ int substring (const char source[], const char sub[])
 
 int main (void)
 {
-    int substring (const char source[], const char sub[]);
+    int findString (const char source[], const char sub[]);
     int index;
     
-    index = substring("a chatterbox", "hat");
+    index = findString("a chatterbox", "hat");
     printf ("substring \"hat\" inside \"a chatterbox\" at position (-1 = not found): %i\n", index);
 
-    index = substring("a chatterbox", "oxen");
+    index = findString("a chatterbox", "oxen");
     printf ("substring \"oxen\" inside \"a chatterbox\" at position (-1 = not found): %i\n", index);
 
-    index = substring("a chatterbox", "x");
+    index = findString("a chatterbox", "x");
     printf ("substring \"x\" inside \"a chatterbox\" at position (-1 = not found): %i\n", index);
 
-    index = substring("a chatterbox", "a ");
+    index = findString("a chatterbox", "a ");
     printf ("substring \"a \" inside \"a chatterbox\" at position (-1 = not found): %i\n", index);
 }
